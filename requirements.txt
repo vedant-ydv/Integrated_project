@@ -1,0 +1,25 @@
+fastapi>=0.136.0,<1.0.0 uvicorn>=0.46.0,<1.0.0
+
+What this file does:
+
+- Lists the exact Python dependencies needed for the AI service
+
+- Uses version constraints to ensure compatibility while allowing minor updates
+
+- Includes FastAPI (web framework) and Uvicorn (ASGI server)
+
+How to use:
+
+1. Create virtual environment:
+
+python3 -m venv venv
+
+2. Activate it:
+
+source venv/bin/activate (Mac/Linux)
+
+venv(Windows)
+
+3. Install dependencies:
+
+pip install -r requirements.txt
